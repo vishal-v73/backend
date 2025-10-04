@@ -2,6 +2,7 @@
   "name": "pc",
   "version": "1.0.0",
   "description": "",
+  "types": "module",
   "homepage": "https://github.com/vishal-v73/backend#readme",
   "bugs": {
     "url": "https://github.com/vishal-v73/backend/issues"
@@ -15,6 +16,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
   }
 }
